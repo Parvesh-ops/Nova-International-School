@@ -56,7 +56,7 @@ const Hero = () => {
                 </p>
 
                 {/* Buttons */}
-                <div className="mt-5 flex flex-col md:flex-row gap-4">
+                <div className="mt-5 flex flex-wrap md:flex-row gap-4">
                   <a
                     href="/admissions"
                     className="bg-accent text-primary font-heading px-3 py-2 rounded-lg hover:opacity-90 transition"
