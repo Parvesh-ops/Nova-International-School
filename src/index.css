@@ -1,0 +1,110 @@
+/* Tailwind core */
+@import "tailwindcss";
+
+/* =========================
+   Fonts
+   ========================= */
+
+/* Headings – Poppins */
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/600.css";
+@import "@fontsource/poppins/700.css";
+
+/* Body – Inter */
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+
+/* =========================
+   CSS Variables (Colors)
+   ========================= */
+
+:root {
+  --color-primary: #0F2A44;
+  --color-secondary: #F9FAFB;
+  --color-accent: #F4B400;
+}
+
+/* =========================
+   Base Styles
+   ========================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  line-height: 1.6;
+}
+
+/* =========================
+   Typography
+   ========================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+/* =========================
+   Utility Classes (Optional)
+   ========================= */
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.bg-accent {
+  background-color: var(--color-accent);
+}
+
+/* =========================
+   Buttons (School Style)
+   ========================= */
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  transition: opacity 0.2s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-accent {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  transition: opacity 0.2s ease;
+}
+
+.btn-accent:hover {
+  opacity: 0.9;
+}
