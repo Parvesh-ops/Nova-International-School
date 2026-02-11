@@ -1,4 +1,5 @@
 import AboutPreview from "../components/AboutPreview/AboutPrivew"
+import AcademicsOverview from "../components/AcademicOverview/AcademicOverview"
 import Hero from "../components/Hero/Hero"
 import InfoCards from "../components/InfoCard/InfoCard"
 
@@ -9,6 +10,7 @@ const Home = () => {
      <Hero />
      <InfoCards />
      <AboutPreview />
+     <AcademicsOverview />
     </div>
   )
 }
