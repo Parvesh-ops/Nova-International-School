@@ -23,6 +23,7 @@
   --color-primary: #0F2A44;
   --color-secondary: #F9FAFB;
   --color-accent: #F4B400;
+  --color-black : #000000;
 }
 
 /* =========================
@@ -45,14 +46,17 @@ body {
    ========================= */
 
 h1,
-h2,
-h3,
 h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
   color: var(--color-secondary);
   font-weight: 600;
+}
+
+h2,h3  {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-black);
 }
 
 /* =========================
